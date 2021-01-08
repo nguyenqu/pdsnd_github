@@ -1,4 +1,3 @@
-""" Refactoring Nr. 1 """
 import os, sys
 import time
 import pandas as pd
@@ -13,6 +12,7 @@ cityList = ['chicago', 'new york city', 'washington']
 MonthList = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 weekdayList = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
+""" Refactoring Nr. 1 """
 def clear_screen():
     try:
         s = sys.winver
